@@ -1,3 +1,7 @@
+* {
+    outline: solid red 1px;
+}
+
 body {
     background-color: #1f2937;
     font-family: "Roboto";
@@ -26,6 +30,7 @@ header a {
 }
 
 header ul {
+    padding: 0;
     list-style-type: none;
     display: flex;
     gap: 20px;
