@@ -1,17 +1,40 @@
 body {
     background-color: #1f2937;
+    font-family: "Roboto";
+    margin: 10px 125px;
 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
 header p {
     font-size: 24px;
+    font-weight: 900;
     color: #f9f9fa;
 }
 
 header a {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
@@ -27,6 +50,7 @@ header a {
     background-color: #3882f6;
     color: #f9faf8;
 }
+
 
 .info,
 .cta {
