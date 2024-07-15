@@ -5,15 +5,25 @@
 body {
     background-color: #1f2937;
     font-family: "Roboto";
-    /* margin: 10px 125px; */
     display: flex;
     flex-direction: column;
-    gap: 90px;
+    justify-content: space-evenly;
+    /* gap: 90px; */
 
 }
 body > * {
     padding: 10px 125px;
 }
+
+header,
+.hero,
+.info,
+.quote,
+.cta {
+    padding-bottom: 90px;
+}
+
+
 
 header {
     display: flex;
