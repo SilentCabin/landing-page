@@ -147,7 +147,7 @@ header ul {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding-top: 90px;
+    padding: 90px 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -204,4 +204,11 @@ header ul {
     border: 2px solid;
     border-radius: 5px;
     padding: 5px 20px;
+}
+
+footer {
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 14px;
+
 }
